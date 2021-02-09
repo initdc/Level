@@ -2,54 +2,71 @@
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
+
 ### SoC芯平台分类分级
 
 * 性能标记 L
 * 价格标记 R
+* 语言标记 E
+
 #### Level 1
 
 * 主频 ≤ 16MHz
-* 价格 ≤ ￥1.0
-
-#### Level 2
-
-* 主频 ≤ 24MHz
 * 价格 ≤ ￥2.0
 
-#### Level 3
+#### Level 2
 
 * 主频 ≤ 32MHz
 * 价格 ≤ ￥4.0
 
-#### Level 4
+#### Level 3
 
 * 主频 ≤ 64MHz
 * 价格 ≤ ￥8.0
 
-#### Level 5
+#### Level 4
 
 * 主频 ≤ 128MHz
-* 价格 ≤ ￥12.0
+* 价格 ≤ ￥10.0
 
-#### Level 6
+#### Level 5
 
 * 主频 ≤ 256MHz
 * 价格 ≤ ￥20.0
 
-#### Level 7
+#### Level 6
 
 * 主频 ≤ 512MHz
 * 价格 ≤ ￥40.0
 
-#### Level 8
+#### Level 7
 
 * 主频 ≤ 1.0 GHz
 * 价格 ≤ ￥80.0
 
+#### Level 8
+
+* 主频 ≤ 2.0 GHz
+* 价格 ≤ ￥160.0
+
 #### Level 9
 
-主频 > 1.0 GHz
-价格 ≥ ￥80.0
+* 主频 > 2.0 GHz
+* 价格 ≥ ￥160.0
+
+
+---
+
+### SoC芯开发语言分类
+
+* E0 VHDL/Verilog
+* E1 ASM汇编语言
+* E2 C
+* E3 C++
+* E4 lua
+* E5 python
+* E6 script
+
 
 
 ###  [www.SoC.xin(芯)](http://www.SoC.Xin)
