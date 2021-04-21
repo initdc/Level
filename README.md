@@ -1,4 +1,4 @@
-﻿# [Level](https://github.com/SoCXin/Level)
+﻿# [平台分级策略](https://github.com/SoCXin/Level)
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
@@ -7,66 +7,88 @@
 
 * 性能标记 L
 * 价格标记 R
-* 语言标记 E
 
-#### Level 1
+#### L1
 
 * 主频 ≤ 16MHz
-* 价格 ≤ ￥2.0
+* RAM < 1K
 
 #### Level 2
 
 * 主频 ≤ 32MHz
-* 价格 ≤ ￥4.0
+* RAM < 4K
 
 #### Level 3
 
 * 主频 ≤ 64MHz
-* 价格 ≤ ￥8.0
+* RAM < 20K
 
 #### Level 4
 
 * 主频 ≤ 128MHz
-* 价格 ≤ ￥10.0
+* RAM < 100K
 
 #### Level 5
 
 * 主频 ≤ 256MHz
-* 价格 ≤ ￥20.0
+* RAM < 500K
 
 #### Level 6
 
 * 主频 ≤ 512MHz
-* 价格 ≤ ￥40.0
+* RAM < 2M
 
 #### Level 7
 
 * 主频 ≤ 1.0 GHz
-* 价格 ≤ ￥80.0
+
 
 #### Level 8
 
 * 主频 ≤ 2.0 GHz
-* 价格 ≤ ￥160.0
+
 
 #### Level 9
 
 * 主频 > 2.0 GHz
-* 价格 ≥ ￥160.0
 
 
 ---
 
-### SoC芯开发语言分类
+#### R1
 
-* E0 VHDL/Verilog
-* E1 ASM汇编语言
-* E2 C
-* E3 C++
-* E4 lua
-* E5 python
-* E6 script
+* 价格 ≤ ￥2.0
 
+#### R2
 
+* 价格 ≤ ￥4.0
 
-###  [www.SoC.xin(芯)](http://www.SoC.Xin)
+#### R3
+
+* 价格 ≤ ￥8.0
+
+#### R4
+
+* 价格 ≤ ￥10.0
+
+#### R5
+
+* 价格 ≤ ￥20.0
+
+#### R6
+
+* 价格 ≤ ￥40.0
+
+#### R7
+
+* 价格 ≤ ￥80.0
+
+#### R8
+
+* 价格 ≤ ￥160.0
+
+#### R9
+
+* 价格 ≥ ￥160.0
+
+###  [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
