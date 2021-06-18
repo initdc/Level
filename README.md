@@ -30,9 +30,9 @@
 
 |  内核架构  | DMIPS/MHz | CoreMark/MHz |
 | --------- | --------- | ------------ |
-| Cortex-M0 |   0.95    |       2.46  |
-| Cortex-M3 |   1.25    |         |
-| Cortex-M4 |   1.25    |         |
+| Cortex-M0 |   0.95    |       1.62  |
+| Cortex-M3 |   1.25    |     2.19    |
+| Cortex-M4 |   1.25    |     2.19    |
 | Cortex-M33 |   1.5    |         |
 | Cortex-M7 |   2.14    |         |
 | 24KEc |   1.55    |     3.05    |
