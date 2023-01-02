@@ -5,9 +5,9 @@
 
 | 分级梯度 | 性能分级 | 价格分级 |
 | ------- | -------- |  ------ |
-| Level 1 | ≤ 60 MHz |   $0.3 |
-| Level 2 | ≤ 120 MHz |  $0.6 |
-| Level 3 | ≤ 200 MHz  | $1.0 |
+| Level 1 | Fmax ≤ 60 MHz |   $0.3 |
+| Level 2 | Fmax ≤ 120 MHz |  $0.6 |
+| Level 3 | Fmax ≤ 200 MHz  | $1.0 |
 | Level 4 | CoreMark≤ 2000 | $2.0  |
 | Level 5 | CoreMark≤ 5000 | $3.0  |
 | Level 6 | CoreMark＞5000 | $4.0  |
@@ -35,21 +35,27 @@ BCM2711(1500 MHz)
 * Multi-Core Score : 536
 
 
-### 性能参考
 
 |  Architecture  | DMIPS/MHz | CoreMark/MHz |
 | --------- | --------- | ------------ |
-| Cortex-M0 |   0.95    |       1.62  |
-| Cortex-M3 |   1.25    |     2.19    |
-| Cortex-M4 |   1.25    |     2.19    |
-| Cortex-M33 |   1.5    |         |
-| Cortex-M7 |   2.14    |         |
-| 24KEc |   1.55    |     3.05    |
+| Cortex-M0 |   0.95    |     2.39  |
+| Cortex-M23 |  1.03    |     2.64  |
+| Cortex-M3 |   1.24    |     3.45  |
+| Cortex-M4 |   1.26    |     3.54  |
+| Cortex-M33 |  1.54    |     4.10  |
+| Cortex-M55 |  1.69    |    4.40   |
+| Cortex-M7 |   2.14    |     5.29  |
+| Cortex-M85 |   3.13   |    6.28   |
+| 24KEc |   1.46    |     3.05    |
+| 1004KEc |   1.55    |     3.20    |
+| Xtensa LX6 |       |    2.07   |
+| Xtensa LX7 |       |    2.56   |
+| [Andes D45](http://www.andestech.com/cn/risc-vandes/) |      |     5.65    |
+| C910 |   5.8    |     7.0    |
 | C906 |   2.4   |   3.8  |
 | E907 |   2.0   |  3.8   |
 | E902 |   1.55    |     2.69    |
-| C910 |   5.8    |     7.0    |
-
+| [RISC-V4F](https://doc.soc.xin/wch/riscv) |      |    3.19   |
 
 
 ### [www.SoC.xin](http://www.SoC.Xin)
