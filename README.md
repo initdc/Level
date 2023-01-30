@@ -4,8 +4,8 @@
 | 分级梯度 | 性能分级L | 价格分级R |
 | ------- | -------- |  ------ |
 | Level 1 | Fmax ≤ 60 MHz |   ≤$0.5 |
-| Level 2 | Fmax ≤ 120 MHz |  ≤$1.0 |
-| Level 3 | Fmax ≤ 200 MHz  | ≤$2.0 |
+| Level 2 | Fmax ≤ 160 MHz |  ≤$1.0 |
+| Level 3 | Fmax ≤ 240 MHz  | ≤$2.0 |
 | Level 4 | [CoreMark](#CoreMark) ≤ 2000 | ≤$3.0  |
 | Level 5 | [CoreMark](#CoreMark) ≤ 5000 | ≤$4.0  |
 | Level 6 | [CoreMark](#CoreMark) ＞5000 | ≤$6.0  |
@@ -21,9 +21,9 @@
 | --------- | --------- | ------------ | ------------ |
 | Cortex-M0+ |   0.95    |     2.39  | [RP2040](https://github.com/SoCXin/RP2040) |
 | [Cortex-M23](https://www.arm.com/products/silicon-ip-cpu/cortex-m/cortex-m23) |  1.03    |  2.64  | [GD32E231](https://github.com/SoCXin/GD32E231) |
-| Cortex-M3 |   1.24    |     3.45  |
-| Cortex-M4 |   1.26    |     3.54  |
-| Cortex-M33 |  1.54    |     4.10  |
+| Cortex-M3  |   1.24    |    3.45  | [STM32F103](https://github.com/SoCXin/STM32F103) |
+| Cortex-M4F |   1.26    |    3.54  | [AT32F437](https://github.com/SoCXin/AT32F437) |
+| Cortex-M33 |  1.54    |     4.10  | [GD32W515](https://github.com/SoCXin/GD32W515) |
 | Cortex-M55 |  1.69    |    4.40   |
 | Cortex-M7 |   2.14    |     5.29  | [STM32H730](https://github.com/SoCXin/STM32H730) |
 | Cortex-M85 |   3.13   |    6.28   |
@@ -32,6 +32,7 @@
 | Xtensa LX6 |       |    2.07   | [ESP32](https://github.com/SoCXin/ESP32) |
 | Xtensa LX7 |       |    2.56   | [ESP32-S3](https://github.com/SoCXin/ESP32S3) |
 | [Andes D45](http://www.andestech.com/cn/risc-vandes/) |  2.86  |     5.67    | [HPM6750](https://github.com/SoCXin/HPM6750) |
+| [Andes N22](http://www.andestech.com/en/products-solutions/andescore-processors/riscv-n22/) |  1.80  |     3.97    | [R9A02G020](https://github.com/SoCXin/R9A02G020) |
 | C910 |   5.8    |     7.0    |
 | C906 |   2.4   |   3.8  |
 | E907 |   2.0   |  3.8   |
